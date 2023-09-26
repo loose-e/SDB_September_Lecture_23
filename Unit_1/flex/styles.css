@@ -1,0 +1,17 @@
+.flex-sample {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    background-color: pink;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#flex-container {
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+}

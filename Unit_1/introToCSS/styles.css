@@ -1,0 +1,77 @@
+/* to select a class, use a '.' */
+
+/* to select an id, use a '#' */
+/* an individual id can only be used once */
+
+
+body {
+    font-size: 30px;
+    background-color: olivedrab;
+    text-shadow: 2px 2px 9px white, 2px -2px 9px white, -2px 2px 9px white, -2px -2px 9px white;
+}
+
+.header {
+    color: darkslateblue;
+    text-align: center;
+}
+
+p {
+    color: darkslateblue;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color:red;
+    text-decoration: overline;
+}
+
+#unique {
+    color:hotpink;
+}
+
+nav .btn {
+    text-shadow: 2px 2px 2px black;
+}
+
+nav > .btn {
+    background-color: yellow;
+}
+
+/* a {
+    color: darkviolet !important;
+} */
+
+/* 
+! CSS Hierarchy 
+weakest to strongest
+
+External Style Sheet
+- element
+- class
+- id
+
+Internal Style Sheet
+- element
+- class
+- id
+
+- inline styling
+- !important
+
+*/
+
+/* styling an unvisited link */
+a:link {
+    color: #ccccff;
+}
+
+a:visited {
+    color: burlywood;
+}
+
+a:hover {
+    color: darkorchid;
+}
+
+a:active {
+    color: midnightblue;
+}

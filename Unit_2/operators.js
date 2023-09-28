@@ -61,3 +61,32 @@ console.log(3 >= 2);
 // Less than or equal to
 
 console.log(1 <= 3);
+
+// And, &&
+2 && 3;
+
+// Or, ||
+2 || 3;
+
+/* 
+    Logical Operators
+    - Arithmetic operators
+*/
+
+// Addition operator
+r += 1; // r = r + 1;
+
+// Subtraction operator
+r -= 1; // r = r - 1;
+
+// Multiplication operator
+r *= 1; // r = r * 1;
+
+// Division operator
+r /= 1; // r = r / 1;
+
+// Remainder operator (modulus operator)
+r %= 1; // r = r % 1;
+
+// Exponential operator
+r **= 1; // r = r ** 1;

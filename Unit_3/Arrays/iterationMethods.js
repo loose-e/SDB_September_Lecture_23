@@ -44,6 +44,7 @@ const filterFruit3 = fruits.filter(removeMango);
 // console.log(removeMango('mango'));
 
 /* 
+
 !   Challenge: 
         How do you remove the 5s from the array?
         Store it in a new variable and console.log that variable 
@@ -58,6 +59,20 @@ const noFives = myNumberArray.filter(removeFive)
 console.log(noFives);
 
 
+let movies = [
+    { name: "Top Gun 2", category: 'Action' },
+    { name: "Scary Movie 5", category: 'Horror' },
+];
+
+movies.push({ name: "It", category: 'Horror' });
+movies.push({ name: "Get Out", category: 'Horror' });
+movies.push({ name: "Taken", category: 'Action' });
+
+const actionMovies = movies.filter(movie => movie.category === 'Action');
+const horrorMovies = movies.filter(movie => movie.category === "Horror");
+
+console.log('Horror: ', horrorMovies);
+console.log('Action: ', actionMovies);
 
 
 //! .forEach()
@@ -129,4 +144,4 @@ let arr = [1, 2, 3, 4, 5];
 if (Array.isArray(arr)) {
     revArr = arr.reverse();
     revArr.forEach(num => console.log(num));
-}
+} else console.log('not an array');
